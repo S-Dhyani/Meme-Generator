@@ -8,7 +8,7 @@
                     <h2>Meme Generator</h2>
                 
             
-                    <h3>React Course-Project 3 </h3>
+                    <h3>SD </h3>
                 
             </nav>
         )
