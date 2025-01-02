@@ -1,0 +1,68 @@
+.main{
+    width: 70%;
+    padding:40px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.form{
+    display: grid;
+    grid-template: 40px 40px/ 1fr 1fr;
+    gap: 1em;
+    
+}
+.form input{
+    border: 2px solid rgb(17, 5, 78);
+padding-left: 10px;
+ border-radius: 15px;
+}
+.form button{
+    grid-column:1/span 2;
+    border-radius: 15px;
+    background-color:rgb(17, 5, 78);
+   color: aliceblue;
+    cursor: pointer;
+    border: none;
+} 
+.meme {
+    width: 70%;
+    margin: auto;
+    position: relative; /* Enables child positioning */
+    text-align: center;
+    color: aliceblue;
+    -webkit-text-fill-color: aliceblue;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Aligns content in a column layout */
+}
+
+.meme > img {
+    border: 10px solid white;
+    max-width: 100%;    
+    max-height: 100%;
+    object-fit: contain; /* Keeps the image aspect ratio intact */
+}
+
+.meme-toptext {
+    position: absolute;
+    top: 10px; /* Positions the text closer to the top of the image */
+    left: 50%; /* Centers text horizontally */
+    transform: translateX(-50%); /* Adjusts centering */
+    z-index: 1; /* Ensures it appears on top of the image */
+}
+
+.meme-bottomtext {
+    position: absolute;
+    bottom: 10px; /* Positions the text closer to the bottom of the image */
+    left: 50%; /* Centers text horizontally */
+    transform: translateX(-50%); /* Adjusts centering */
+    z-index: 1; /* Ensures it appears on top of the image */
+}
+    

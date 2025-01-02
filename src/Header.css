@@ -1,0 +1,37 @@
+
+nav{
+margin: auto;
+    margin-top: 10px;
+    width:97%;
+    border-radius: 1em;
+    display: flex;
+    height: 65px;
+    justify-content: space-between;
+    background:linear-gradient(90deg,#1b0648 0%, #260133 100%);
+    color: aliceblue;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+nav div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+nav img{
+    width: 31px;
+    height: 26px;
+    padding-left: 10px;
+   
+}
+nav h3{
+
+    margin-right: 10px ;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

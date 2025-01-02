@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import React from "react";
-
+import "./Meme.css"
 export default function Meme() {
 
     const [meme, setMeme] = useState({
@@ -55,12 +55,12 @@ export default function Meme() {
                     value={meme.bottomText} />
                 <button onClick={getMemeImage}>Get a new meme image  🖼</button>
 
-                </div>
+            </div>
 
-                <div className="meme">
-                    <h2 className="meme-toptext">{meme.topText}</h2>
-                    <img src={meme.randomImage} alt="" className="meme--img" />
-                    <h2 className="meme-bottomtext">{meme.bottomText}</h2>
+            <div className="meme">
+                <h2 className="meme-toptext">{meme.topText}</h2>
+                <img src={meme.randomImage} alt="" className="meme--img" />
+                <h2 className="meme-bottomtext">{meme.bottomText}</h2>
 
 
             </div>
